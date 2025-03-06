@@ -1,0 +1,68 @@
+/*Dashbord Styles*/
+
+/* Save button */
+.save-button{
+    margin: 5px;
+    color: white;
+    background-color: rgb(71, 154, 236);
+    width: 70px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px 10px 0px 10px;
+
+}
+/* Letter Title */
+.letter-title{
+    height: 40px;
+    font-weight: 700;
+    border-radius: 10px 10px 0px 10px;
+    margin-bottom: 5px;
+
+}
+
+/* Logout-botton-setup*/
+.Logout-botton-setup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Logout-botton*/
+.logout-button{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(191, 76, 65);
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* Login Page style */
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 37vh;
+}
+
+/* Login button */
+.login-button{
+    height: 50px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(6, 13, 17);
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px 15px 0px 20px;
+    padding: 12px;
+    text-decoration: none;
+}
+.login-button:hover{
+    background-color: rgb(4, 57, 88);
+}
